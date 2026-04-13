@@ -121,7 +121,7 @@ export default function ProductForm({ refresh, editingProduct, setEditingProduct
         <option value="">Select Category</option>
 
       
-
+{/* //ssdas */}
         {categories?.map((c, index) => (
   <option key={c.id || c._id || index} value={c.id || c._id}>
     {c.name}
